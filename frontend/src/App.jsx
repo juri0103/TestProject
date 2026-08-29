@@ -74,7 +74,8 @@ function App() {
 
             {/* 새로 추가된 오늘 날짜 출력 */}
             {currentDate && (
-                <p style={{ marginTop: '10px', fontSize: '18px', fontWeight: 'bold', color: 'green' }}>
+
+                <p style={{ marginTop: '10px', fontSize: '18px', fontWeight: 'bold', color: 'greenyellow' }}>
                     오늘의 날짜: {currentDate}
                 </p>
             )}
